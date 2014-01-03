@@ -2,7 +2,7 @@
 
 ## Installation
 
-Using pathogen: [https://github.com/tpope/vim-pathogen]
+Using [pathogen]( https://github.com/tpope/vim-pathogen ):
 
 ```
 git clone https://github.com/clarke/vim-renumber.git ~/.vim/bundle/renumber
@@ -10,7 +10,7 @@ git clone https://github.com/clarke/vim-renumber.git ~/.vim/bundle/renumber
 
 ## Summary
 
-The purpose of this vim plugin is to allow easily reordering of numbered lists. This can be very useful when working with things like [Markdown|http://daringfireball.net/projects/markdown/] or other numbered lists. For example, say you have a list such as:
+The purpose of this vim plugin is to allow easily reordering of numbered lists. This can be very useful when working with things like [Markdown](http://daringfireball.net/projects/markdown/) or other numbered lists. For example, say you have a list such as:
 
 ToDo:
 
