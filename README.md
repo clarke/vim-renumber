@@ -8,6 +8,18 @@ Using [pathogen]( https://github.com/tpope/vim-pathogen ):
 git clone https://github.com/clarke/vim-renumber.git ~/.vim/bundle/renumber
 ```
 
+Directly:
+
+```
+# Make sure the vim plugin directory exists
+mkdir -p ~/.vim/plugin
+
+# Download the raw plugin
+wget -O ~/.vim/plugin/renumber.vim https://raw.github.com/clarke/vim-renumber/master/plugin/renumber.vim
+```
+
+Note: Substitute your vim plugin directory above if you have chosen to use a different location.
+
 ## Summary
 
 The purpose of this vim plugin is to allow easily reordering of numbered lists. This can be very useful when working with things like [Markdown](http://daringfireball.net/projects/markdown/) or other numbered lists. For example, say you have a list such as:
@@ -43,4 +55,4 @@ This will reorder the numbers in the list so that they are sequential starting f
 
 ## License
 
-Copyright (c) Clarke Retzer. Distributed under the same terms as Vim itself. See :help license.
+Copyright (c) Clarke Retzer. Distributed under the same terms as Vim itself. See `:help license`.
